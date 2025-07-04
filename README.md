@@ -86,12 +86,10 @@ graph TD
 ### 🖼️ Starred Repository Proofs
 
 #### ⭐ Starred Pathway Repository  
-![Starred Pathway](Screenshot_Pathway_Star.png)
+![Screenshot (12)](https://github.com/user-attachments/assets/8e00e463-740e-4b50-ae99-9969bb6be3b5)
 
 #### ⭐ Starred LLM App Repository  
-![Starred LLM App](Screenshot_LLM_App_Star.png)
-
-
+![Screenshot (13)](https://github.com/user-attachments/assets/4e6d0e54-b7d4-4f77-bc6b-ca6df73b7a8d)
 
 
 ## 🔗 Useful Resources
