@@ -15,10 +15,11 @@ This project implements an intelligent, real-time pricing engine for 14 urban pa
 ```mermaid
 graph TD
     A[CSV Input: dataset.csv] --> B[Data Preprocessing]
-    B --> C[Model 1: Baseline Linear Pricing]
-    B --> D[Model 2: Demand-Based Pricing]
-    D --> E[Model 3: Competitive Pricing (Optional)]
-    C --> F[Real-Time Price Output via Pathway]
-    D --> F
-    E --> F
-    F --> G[Bokeh Visual Dashboard]
+    B --> C1[Model 1: Baseline Linear Pricing]
+    B --> C2[Model 2: Demand-Based Pricing]
+    B --> C3[Model 3: Competitive Pricing (Optional)]
+    C1 --> D[Real-Time Price Output via Pathway]
+    C2 --> D
+    C3 --> D
+    D --> E[Bokeh Visual Dashboard]
+```
