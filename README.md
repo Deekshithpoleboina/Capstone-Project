@@ -13,7 +13,7 @@ This project implements an intelligent, real-time pricing engine for 14 urban pa
 
 ## 🔧 Architecture Diagram
 
-```mermaid
+```
 graph TD
     A[CSV Input: dataset.csv] --> B[Data Preprocessing]
     B --> C1[Model 1: Baseline Linear Pricing]
