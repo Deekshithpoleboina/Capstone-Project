@@ -23,3 +23,19 @@ graph TD
     C3 --> D
     D --> E[Bokeh Visual Dashboard]
 ```
+## 🧠 Project Workflow
+- Data Collection: Dataset includes timestamped parking metrics (occupancy, queue, etc.)
+
+- Feature Engineering: Occupancy rate, congestion level encoding, datetime merging
+
+- Pricing Models:
+
+- Model 1: Linear occupancy-based
+
+- Model 2: Demand function with multiple features
+
+- Model 3 (optional): Competitive pricing based on geospatial proximity
+
+- Real-Time Simulation: Implemented using Pathway stream processor
+
+- Visualization: Bokeh plots for price over time and lot comparisons
