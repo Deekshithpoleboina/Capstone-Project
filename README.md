@@ -81,7 +81,7 @@ graph TD
 )
 
 - **Predicted Prices Over Time**  
-  [Price Over Time]![Screenshot 2025-07-04 160451](https://github.com/user-attachments/assets/71d17a7a-2402-4be5-a2df-69895fc1093d)
+  ![Screenshot 2025-07-04 160451](https://github.com/user-attachments/assets/71d17a7a-2402-4be5-a2df-69895fc1093d)
 
 
 ### 🖼️ Starred Repository Proofs
