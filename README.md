@@ -77,8 +77,8 @@ graph TD
 ### 🔹 Sample Output from Capstone_Project_Submission.ipynb
 
 - **Occupancy Rate + Price Calculation Preview**  
-  [Screenshot 2025-07-04 155928](https://github.com/user-attachments/assets/0d7efd34-a025-4370-a8d3-7e58409025c4)
-
+  [Occupancy Rate Table]([Screenshot 2025-07-04 155928](https://github.com/user-attachments/assets/20ba970e-d8da-48cd-97dc-961e009b0cac)
+)
 
 - **Predicted Prices Over Time**  
   ![Price Over Time](images/price_time_chart.png)
@@ -90,6 +90,7 @@ graph TD
 
 #### ⭐ Starred LLM App Repository  
 ![Starred LLM App](Screenshot_LLM_App_Star.png)
+
 
 
 ## 🔗 Useful Resources
