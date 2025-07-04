@@ -1,14 +1,15 @@
+
 # 🚗 Dynamic Pricing for Urban Parking Lots
 
 ## 📌 Overview
-This project implements an intelligent, real-time pricing engine for 14 urban parking lots based on occupancy, queue length, traffic conditions, special days, and more. The goal is to optimize lot utilization using dynamic pricing strategies.
+This project implements an intelligent, real-time pricing engine for 14 urban parking lots using dynamic strategies based on occupancy levels, queue length, traffic congestion, and special event indicators. The goal is to maximize utilization while ensuring price fairness and system adaptability throughout the day.
 
 ## 🛠 Tech Stack
-- Python (Pandas, Numpy)
-- Pathway (Real-time streaming)
-- Bokeh (Visualization)
-- Google Colab (Notebook environment)
-- GitHub (Version control & hosting)
+- **Python**: `pandas`, `numpy`
+- **Pathway**: Real-time data streaming
+- **Bokeh**: Interactive visualizations
+- **Google Colab**: Notebook execution environment
+- **GitHub**: Version control and hosting
 
 ## 🔧 Architecture Diagram
 
@@ -23,69 +24,71 @@ graph TD
     C3 --> D
     D --> E[Bokeh Visual Dashboard]
 ```
+
 ## 🧠 Project Workflow
-- Data Collection: Dataset includes timestamped parking metrics (occupancy, queue, etc.)
 
-- Feature Engineering: Occupancy rate, congestion level encoding, datetime merging
+1. **Data Collection**  
+   The dataset contains time-series data from 14 parking lots, recorded over 73 days and 18 intervals per day (every 30 minutes from 8:00 AM to 4:30 PM).
 
-- Pricing Models:
+2. **Feature Engineering**  
+   - Combine date and time into a single timestamp  
+   - Calculate occupancy rate  
+   - Encode traffic congestion as numeric levels  
+   - Normalize queue length and special day indicators  
 
-- Model 1: Linear occupancy-based
+3. **Modeling**
+   - **Model 1: Baseline Linear Model**  
+     Price increases linearly with occupancy rate  
+     `Price[t+1] = Price[t] + α * (Occupancy / Capacity)`
 
-- Model 2: Demand function with multiple features
+   - **Model 2: Demand-Based Pricing**  
+     A composite demand function considers occupancy, traffic, queue, special days, and vehicle type.  
+     Adjusted price = `BasePrice * (1 + λ * NormalizedDemand)`
 
-- Model 3 (optional): Competitive pricing based on geospatial proximity
+   - **Model 3: Competitive Pricing (Optional)**  
+     Takes into account prices of nearby lots (via latitude and longitude)  
+     Includes rerouting suggestions for full lots or strategic price reduction
 
-- Real-Time Simulation: Implemented using Pathway stream processor
+4. **Real-Time Simulation with Pathway**  
+   - Simulates streaming data with timestamps  
+   - Integrates pricing logic into Pathway’s real-time processing pipeline
 
-- Visualization: Bokeh plots for price over time and lot comparisons
+5. **Visualization with Bokeh**  
+   - Real-time line plots of price per parking lot  
+   - Competitor price comparisons  
+   - Interactive filtering by time, lot, and vehicle type
 
 ## 📂 Repository Structure
 
+```
 📦 dynamic-parking-pricing/
-├── Capstone_Project_Submission.ipynb
-├── dataset.csv
-├── README.md
-├── architecture.png / mermaid.md
-├── pricing_models.py (optional)
-└── report.pdf (optional)
+├── Capstone_Project_Submission.ipynb     # Main implementation notebook
+├── dataset.csv                           # Input dataset
+├── README.md                             # Project documentation
+├── architecture.md / architecture.png    # Mermaid diagram or PNG
+├── pricing_models.py                     # (Optional) Modular model implementation
+├── report.pdf                            # (Optional) Written report submission
+├── star_repo_pathway.png                 # Required screenshot 1
+├── star_repo_llm_app.png                 # Required screenshot 2
+```
 
 ## 📈 Output Examples
-- Add screenshots or GIFs of your visual dashboard here (optional)
+> Include screenshots of pricing plots or Bokeh dashboard here (optional but recommended)
 
-## 🔗 Resources
-Pathway Docs
-
-Bokeh Documentation
-
-
----
-
-#### 2. **Screenshots**
-- Upload and name the starred repo screenshots:  
-  `star_repo_pathway.png` and `star_repo_llm_app.png`
+## 🔗 Useful Resources
+- [📘 Pathway Documentation](https://pathway.com/developers)
+- [📗 Bokeh Docs](https://docs.bokeh.org/en/latest/)
+- [📘 Summer Analytics 2025](https://www.caciitg.com/sa/course25/)
 
 ---
 
-#### 3. **Public GitHub Repo**
-Push all files including:
-- Notebook: `Capstone_Project_Submission.ipynb`
-- Dataset: `dataset.csv` (or link if too large)
-- README.md (from above)
-- Architecture Diagram (use Mermaid or export image)
-- (Optional) `report.pdf`
-
-Make sure the repository is set to **Public**.
+## ✅ Final Submission Checklist
+- [x] GitHub repository is public
+- [x] All scripts, notebooks, and dataset included
+- [x] README.md with architecture and project workflow
+- [x] Starred repo screenshots uploaded (`.png`)
+- [x] GitHub repo link ready to submit
 
 ---
 
-#### 4. **Final Submission Form Fields**
-- ✅ Name, Email, Mobile
-- ✅ GitHub Username
-- ✅ 2 starred repo screenshots
-- ✅ Public GitHub repo link (copy this after push)
-- ✅ Any final feedback if you have
-
----
-
-If you want, I can generate the `README.md` and `architecture.md` files for you right now. Would you like that?
+**All the best!** 🚀 You're one step away from completing your capstone project!
