@@ -62,14 +62,18 @@ graph TD
 
 ```
 📦 dynamic-parking-pricing/
-├── Capstone_Project_Submission.ipynb     # Main implementation notebook
-├── dataset.csv                           # Input dataset
-├── README.md                             # Project documentation
-├── architecture.md / architecture.png    # Mermaid diagram or PNG
-├── pricing_models.py                     # (Optional) Modular model implementation
-├── report.pdf                            # (Optional) Written report submission
-├── star_repo_pathway.png                 # Required screenshot 1
-├── star_repo_llm_app.png                 # Required screenshot 2
+├── Capstone_Project_Submission.ipynb
+├── dataset.csv
+├── README.md
+├── architecture.md / architecture.png
+├── pricing_models.py
+├── report.pdf (optional)
+├── images/
+│   ├── Occupancy_Example.png
+│   ├── Price_Over_Time.png
+│   ├── Screenshot_Pathway_Star.png
+│   └── Screenshot_LLM_App_Star.png
+
 ```
 
 ## 📈 Output Examples
