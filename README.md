@@ -77,8 +77,7 @@ graph TD
 ### 🔹 Sample Output from Capstone_Project_Submission.ipynb
 
 - **Occupancy Rate + Price Calculation Preview**  
-  ![Occupancy Rate Table](![Screenshot 2025-07-04 155928](https://github.com/user-attachments/assets/c784437a-f36c-4988-b3e0-6b53e1a0b5e2)
-)
+  ![Screenshot 2025-07-04 155928](https://github.com/user-attachments/assets/c784437a-f36c-4988-b3e0-6b53e1a0b5e2)
 
 - **Predicted Prices Over Time**  
   ![Screenshot 2025-07-04 160451](https://github.com/user-attachments/assets/71d17a7a-2402-4be5-a2df-69895fc1093d)
