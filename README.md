@@ -73,7 +73,24 @@ graph TD
 ```
 
 ## 📈 Output Examples
-> Include screenshots of pricing plots or Bokeh dashboard here (optional but recommended)
+
+### 🔹 Sample Output from Capstone_Project_Submission.ipynb
+
+- **Occupancy Rate + Price Calculation Preview**  
+  ![Occupancy Rate Table](![Screenshot 2025-07-04 155928](https://github.com/user-attachments/assets/0d7efd34-a025-4370-a8d3-7e58409025c4)
+)
+
+- **Predicted Prices Over Time**  
+  ![Price Over Time](images/price_time_chart.png)
+
+### 🖼️ Starred Repository Proofs
+
+#### ⭐ Starred Pathway Repository  
+![Starred Pathway](Screenshot_Pathway_Star.png)
+
+#### ⭐ Starred LLM App Repository  
+![Starred LLM App](Screenshot_LLM_App_Star.png)
+
 
 ## 🔗 Useful Resources
 - [📘 Pathway Documentation](https://pathway.com/developers)
